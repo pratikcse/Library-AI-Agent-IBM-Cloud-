@@ -1,0 +1,58 @@
+.allbooks-page {
+  padding: 24px;
+}
+
+.allbooks-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+.books-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.books-table th, .books-table td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.issue-btn {
+  background: #2f80ed;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.issue-btn:disabled {
+  background: #b9d1fb;
+  cursor: not-allowed;
+}
+
+.message {
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.message.success {
+  background: #e6ffed;
+  color: #116530;
+}
+
+.message.error {
+  background: #ffecec;
+  color: #8b0000;
+}
+
+.no-books {
+  text-align: center;
+  padding: 20px 0;
+  color: #666;
+}

@@ -1,0 +1,86 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.nav-links a {
+  margin: 0 18px;
+  color: #374151;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #3b82f6;
+}
+
+.profile-trigger {
+  font-size: 14px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: #f1f5f9;
+  cursor: pointer;
+}
+
+/* Profile Panel */
+.profile-panel {
+  position: absolute;
+  top: 75px;
+  right: 40px;
+  width: 300px;
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.profile-panel h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.profile-info p {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #374151;
+}
+
+.profile-actions {
+  margin-top: 15px;
+  display: grid;
+  gap: 10px;
+}
+
+.profile-actions button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #f3f4f6;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.profile-actions button:hover {
+  background: #e5e7eb;
+}
+
+.profile-actions .logout {
+  background: #ef4444;
+  color: white;
+}
+
+.profile-actions .logout:hover {
+  background: #dc2626;
+}

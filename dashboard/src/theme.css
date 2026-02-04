@@ -1,0 +1,27 @@
+.light {
+  background: #f9fafb;
+  color: #111827;
+}
+
+.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.dark .navbar,
+.dark .stat-card,
+.dark .action-card,
+.dark .profile-panel {
+  background: #020617;
+  color: #e5e7eb;
+}
+
+.theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

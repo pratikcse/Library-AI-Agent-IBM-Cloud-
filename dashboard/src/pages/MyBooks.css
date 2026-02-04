@@ -1,0 +1,53 @@
+.mybooks-page {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mybooks-page h2 {
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.loading-text,
+.empty-text,
+.error-text {
+  color: #666;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 40px;
+}
+
+.error-text {
+  color: #c62828;
+}
+
+.books-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.book-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #667eea;
+}
+
+.book-card h3 {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.book-card p {
+  color: #666;
+  margin: 4px 0;
+}
+
+.txn-id {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 8px;
+}

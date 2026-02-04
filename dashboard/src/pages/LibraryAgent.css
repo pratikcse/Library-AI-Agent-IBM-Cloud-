@@ -1,0 +1,30 @@
+.ai-page {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f6f7f9;
+}
+
+.ai-card {
+  width: 100%;
+  max-width: 900px;
+  height: 80vh;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-card h2 {
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.watson-embed {
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
