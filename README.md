@@ -71,9 +71,3 @@ This pattern lets Watson remain the front-line conversational engine while deleg
 - Add verbose logging in Flask for webhook endpoints during development so you can trace payloads and responses.
 
 ---
-
-If you'd like, I can now:
-- Add a compact `README` section at the top-level with this content and remove other sections (done), or
-- Add an example `adapter` endpoint (`/watson_webhook`) in `cloudant_client.py` with payload translation and header-based authentication.
-
-Tell me if you want the `adapter` endpoint implemented and I will add it. ✨
