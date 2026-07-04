@@ -30,9 +30,17 @@ It is designed as a practical demo of an intelligent library assistant experienc
 
 Here are some visual references you can use in the repository. Replace them with real app screenshots when available.
 
-![Dashboard Preview](dashboard/public/logo512.png)
+![Dashboard Preview](img/1.jpg)
 
-![Library AI Assistant Preview](dashboard/public/logo192.png)
+![Library AI Assistant Preview](img/2.jpg)
+
+![Library AI Assistant Preview](img/3.jpg)
+
+![Library AI Assistant Preview](img/4.jpg)
+
+![Library AI Assistant Preview](img/5.jpg)
+
+![Library AI Assistant Preview](img/6.jpg)
 
 ## Tech Stack
 
